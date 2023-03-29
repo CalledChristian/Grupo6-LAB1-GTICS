@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class Controller1 {
-    @GetMapping("/login")
-    public String inicio(){
-        return "registroTelec";
+    @GetMapping(value = "homepage")
+    public String homepage(){
+
+        return "homepage";
     }
 }
