@@ -41,6 +41,6 @@ public class Controller1 {
        usuario.setCorreo(correo);
        usuario.setContrasena(contrasena);
        listaUsuarios.add(usuario);
-        return "redirect";
+        return "redirectr4d";
     }
 }
