@@ -13,7 +13,10 @@ public class Controller1 {
         return "registroTelec";
     }
 
-
+    @GetMapping("/homePage1")
+    public String momePage(){
+        return "homepage";
+    }
 
 
 
