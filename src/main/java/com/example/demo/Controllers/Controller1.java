@@ -10,5 +10,6 @@ public class Controller1 {
     public String inicio(){
         return "login";
 
+
     }
 }
