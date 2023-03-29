@@ -7,13 +7,44 @@
   <title>Registro Usuario</title>
 </head>
 <body background="images/fondoInicio.jpg"  >
-<div class="card">
-  <h5 class="card-header">Featured</h5>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+    <div class="card col-6 offset-3" style="width: 80%;">
+      <form>
+        <fieldset disabled>
+          <legend class="card-title" style="color: darkgreen" >Registro de nuevo usuario</legend>
+          <div class="mb-3">
+
+            <input type="text" id="nombre" class="form-control" placeholder="Nombres Completos">
+          </div>
+
+          <div class="mb-3">
+
+            <input type="text" id="usuario" class="form-control" placeholder="Usuario">
+          </div>
+
+          <div class="mb-3">
+
+            <input type="text" id="correo" class="form-control" placeholder="Correo">
+          </div>
+          <div class="mb-3">
+
+            <input type="text" id="password" class="form-control" placeholder="Contraseña">
+          </div>
+          <div class="mb-3">
+
+            <input type="text" id="repassword" class="form-control" placeholder="Repetir su contraseña">
+          </div>
+
+
+          <div class="card text-center" style="width: 18rem;" >
+            <button type="submit" class="btn btn-primary" style="border-radius: 30px">Crear Usuario</button>
+
+          </div>
+
+        </fieldset>
+
+      </form>
+
+    </div>
+
 </body>
 </html>
