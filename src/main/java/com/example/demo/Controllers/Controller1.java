@@ -6,8 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.ArrayList;
+
 @Controller
 public class Controller1 {
+
+    ArrayList<Usuario> listaUsuarios = new ArrayList<>();
     @GetMapping("/login")
     public String inicio(){
         return "registroTelec";
@@ -36,6 +40,7 @@ public class Controller1 {
        usuario.setUsuario(user);
        usuario.setCorreo(correo);
        usuario.setContrasena(contrasena);
-        return "datosUsuario";
+       listaUsuarios.add(usuario);
+        return "redirect";
     }
 }
