@@ -9,4 +9,8 @@ public class Controller1 {
     public String inicio(){
         return "registroTelec";
     }
+    @GetMapping("/homepage")
+    public String homepage(){
+        return "homepage";
+    }
 }
